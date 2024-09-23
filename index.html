@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Concepts Review for Kahoot Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        h2 {
+            color: #3498db;
+        }
+        pre {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Python Concepts Review for Kahoot Quiz</h1>
+    <p>Here's a review of some important Python concepts that will be covered in tomorrow's Kahoot quiz. These concepts are related to lists and dictionaries.</p>
+
+    <h2>1. The extend() method for lists</h2>
+    <p>This method adds all the elements of an iterable (like another list) to the end of the current list.</p>
+    <pre><code>fruits = ['apple', 'banana']
+more_fruits = ['cherry', 'date']
+fruits.extend(more_fruits)
+print(fruits)  # Output: ['apple', 'banana', 'cherry', 'date']</code></pre>
+
+    <h2>2. The sorted() function</h2>
+    <p>This function returns a new sorted list from a given iterable. It can sort in ascending or descending order.</p>
+    <pre><code>numbers = [3, 1, 4, 1, 5, 9, 2]
+sorted_ascending = sorted(numbers)
+sorted_descending = sorted(numbers, reverse=True)
+print(sorted_ascending)   # Output: [1, 1, 2, 3, 4, 5, 9]
+print(sorted_descending)  # Output: [9, 5, 4, 3, 2, 1, 1]</code></pre>
+
+    <h2>3. The 'in' expression for dictionaries</h2>
+    <p>This is used to check if a key exists in a dictionary.</p>
+    <pre><code>student_grades = {'Alice': 85, 'Bob': 92, 'Charlie': 78}
+if 'Bob' in student_grades:
+    print("Bob's grade:", student_grades['Bob'])
+else:
+    print("Bob's grade not found")</code></pre>
+
+    <p>These concepts are powerful tools in Python and will be featured in tomorrow's Kahoot quiz. Practice using them to prepare for the quiz and improve your Python skills!</p>
+</body>
+</html>
