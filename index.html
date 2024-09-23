@@ -55,6 +55,29 @@ if 'Bob' in student_grades:
 else:
     print("Bob's grade not found")</code></pre>
 
+    <h2>4. Three ways to copy a list</h2>
+    <p>There are three common ways to create a copy of a list in Python:</p>
+    <pre><code>original_list = [1, 2, 3, 4, 5]
+
+    # Method 1: Using the list() constructor
+    copy_1 = list(original_list)
+    
+    # Method 2: Using the slice notation
+    copy_2 = original_list[:]
+    
+    # Method 3: Using the copy() method
+    copy_3 = original_list.copy()
+    
+    print(copy_1)  # Output: [1, 2, 3, 4, 5]
+    print(copy_2)  # Output: [1, 2, 3, 4, 5]
+    print(copy_3)  # Output: [1, 2, 3, 4, 5]
+    
+    # All three methods create a new list object
+    print(original_list is copy_1)  # Output: False
+    print(original_list is copy_2)  # Output: False
+    print(original_list is copy_3)  # Output: False</code></pre>
+    <p>Note: These methods create shallow copies. For nested lists, you might need to use deep copy techniques.</p>
+    
     <p>These concepts are powerful tools in Python and will be featured in tomorrow's Kahoot quiz. Practice using them to prepare for the quiz and improve your Python skills!</p>
 </body>
 </html>
